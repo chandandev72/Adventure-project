@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+
+    max-width: 100%;
+}
+
+.container{
+
+width: 85%;
+
+margin: 0 auto;
+}
+
+header{
+
+  background-image: url(../image/dawn.jpg);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.445);
+    
+}
+
+
+.flex{
+    
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+}
+
+.logo{}
+
+.logo h3{
+
+font-size: 30PX;
+
+line-height: 1.1;
+}
+
+  .logo h3 span {
+
+    font-weight: 300;
+  }  
+
+nav{}
+
+nav ul {
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 0px 0px 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+   
+}
+
+/* banner */
+.banner{
+    text-align: center;
+    padding: 160px 0;
+}
+
+.banner h4{
+    font-size: 30px;
+    margin: 0;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.banner span{
+    background-color: #fb2259;
+    height: 5px;
+    width: 200px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 15px 0px 30px 0px;
+}
+
+.banner h1 {
+    font-size: 80px;
+    font-weight: 500;
+    margin: 20px 0 30px 0;
+}
+
+.banner button {
+    background-color: #fb2259;
+    font-size: 20px;
+    color: white;
+    padding: 15px 25px;
+    border: 2px solid #fb2259;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* event */
+
+.event-top{}
+
+.event-top h2{
+    font-size: 35px;
+    color: #4c4c4c;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.event-top span{
+    background-color: #fb2259;
+    height: 5px;
+    width: 200px;
+    border-radius: 10px;
+    display: block;
+    margin: 15px auto;
+    margin-bottom: 30px;
+}
+
+.events{
+    width: 80%;
+    margin: auto;
+}
+
+.event{
+    padding: 20px;
+    text-align: center;
+}
+
+.event img{
+    
+    height: 350px;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: 10px 10px 3px grey;
+}
+
+.event h4{
+    font-size: 25px;
+    color: #000000b3;
+    margin: 20px 0 0 0;
+}
+
+.event p {
+
+color: #4c4c4c;
+}
+.event a {
+    text-decoration: none;
+    color: #fb2259;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile device */
+
+@media only screen and (max-width:600px){
+    .container{
+    
+        width: 90%;
+        
+         }
+          
+        .flex{
+         display: block;
+         }
+        
+       .logo h3{
+        
+        font-size: 25PX;
+        margin: 0;
+        padding: 15px 0;
+        text-align: center;
+        
+        }
+        
+          
+        nav ul {
+         padding: 0;
+         flex-wrap: wrap;
+          
+        }
+        
+        nav ul li {
+           
+            padding: 10px;
+        }
+        
+       
+        
+        /* banner */
+        .banner{
+           
+            padding: 50px 0;
+        }
+        
+        .banner h4{
+            font-size: 25px;
+        }
+           
+        
+        .banner span{
+          
+            width: 100px;
+          
+        }
+        
+        .banner h1 {
+            font-size: 30px;
+           margin: 0px 0 35px 0;
+        }
+        
+        .banner button {
+          
+         font-size: 18px;
+         padding: 10px 20px;
+         letter-spacing: 1px;
+        }
+    
+      /* event */
+
+
+
+.event-top h2{
+    font-size: 25px;
+    color: #4c4c4c;
+    text-align: center;
+    margin: 30px 0 0 0; 
+}
+
+
+
+.events{
+    width: 100%;
+   
+}
+
+.event{
+    padding: 20px;
+   
+}
+
+.event img{
+    
+    height: 300px;
+    box-shadow: 7px 7px 3px grey;
+}
+
+.event h4{
+    font-size: 20px;
+
+}
+
+
+
+
+       
+    
+    
+}
